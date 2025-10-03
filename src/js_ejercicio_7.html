@@ -1,0 +1,31 @@
+<!-- Objetivo del ejercicio: Practicar generación de cadenas aleatorias y uso de formularios. 
+Ejercicio: 
+Crea una página con un campo de entrada para especificar la longitud de una contraseña y un botón que 
+diga “Generar contraseña”. 
+• Al hacer clic en el botón, se debe mostrar una contraseña generada aleatoriamente usando 
+letras, números y caracteres especiales. 
+• Si la longitud es menor a 4 o el campo está vacío, muestra un mensaje de error indicando que la 
+longitud debe ser mayor o igual a 4.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Generador de Contraseñas Aleatorias</title>
+        <link rel="stylesheet" href="./style.css    " />
+    </head>
+    <body>
+        <div class="container">
+            <h2>Generador de Contraseñas</h2>
+            <input type="number" id="length" placeholder="Longitud" />
+            <br />
+            <button id="generate">Generar contraseña</button>
+            <div id="password"></div>
+            <div id="error"></div>
+        </div>
+        <br />
+        <a href="../index.html">Menu Ejercicios</a>
+        <script src="./js/js_ejercicio7.js"></script>
+    </body>
+</html>
