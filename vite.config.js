@@ -2,15 +2,17 @@ import { defineConfig } from "vite";
 import { resolve } from 'path';
 
 export default defineConfig({
-	base: "/JsEjercicios/",
-	server: {
-		watch: {
-			usePolling: true,
-		},
-	},
-	build: {
-		rollupOptions: {
-			input: {
+    base: "/JsEjercicios/",
+    server: {
+        watch: {
+            usePolling: true,
+        },
+    },
+    build: {
+        outDir: 'dist',
+        assetsDir: 'assets',
+        rollupOptions: {
+            input: {
 				main: '/index.html',
 				ejercicio1: '/src/js_ejercicio_1.html',
 				ejercicio2: '/src/js_ejercicio_2.html',
