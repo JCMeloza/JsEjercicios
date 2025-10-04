@@ -1,0 +1,32 @@
+<!-- 8. Contador de Palabras y Caracteres 
+Objetivo del ejercicio: Practicar eventos en tiempo real y manipulación avanzada del DOM. 
+Ejercicio: 
+Crea una página con un campo de texto donde el usuario pueda escribir un párrafo. 
+• Muestra en tiempo real el número de caracteres y palabras ingresados debajo del campo. 
+• Palabras deben ser separadas por espacios, y los caracteres no deben incluir espacios ni saltos de 
+línea. -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contador de Palabras y Caracteres</title>
+        <link rel="stylesheet" href="./style.css    " />
+    </head>
+    <body>
+        <div class="container">
+            <h2>Contador de Palabras y Caracteres</h2>
+            <textarea
+                id="text"
+                placeholder="Escribe tu párrafo aquí..."
+            ></textarea>
+            <div class="counter">
+                Palabras: <span id="wordCount">0</span><br />
+                Caracteres (sin espacios): <span id="charCount">0</span>
+            </div>
+        </div>
+        <br />
+        <a href="../index.html">Menu Ejercicios</a>
+        <script src="./js/js_ejercicio8.js"></script>
+    </body>
+</html>
