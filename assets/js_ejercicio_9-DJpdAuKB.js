@@ -1,4 +1,4 @@
-import"./style-DQLMo0dU.js";var e=document.getElementById(`taskInput`),t=document.getElementById(`addTask`),n=document.getElementById(`taskList`),r=document.getElementById(`clearCompleted`),i=JSON.parse(localStorage.getItem(`tasks`))||[];function a(){n.innerHTML=``,i.forEach((e,t)=>{n.innerHTML+=`
+import"./style-C_zf2zca.js";var e=document.getElementById(`taskInput`),t=document.getElementById(`addTask`),n=document.getElementById(`taskList`),r=document.getElementById(`clearCompleted`),i=JSON.parse(localStorage.getItem(`tasks`))||[];function a(){n.innerHTML=``,i.forEach((e,t)=>{n.innerHTML+=`
         <li>
           <input type="checkbox" ${e.completed?`checked`:``} 
                  onchange="toggleTask(${t})">

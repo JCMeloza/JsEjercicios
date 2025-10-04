@@ -1,0 +1,1 @@
+import"./style-C_zf2zca.js";document.getElementById(`contarClicsBtn`).addEventListener(`click`,()=>{let e=parseInt(localStorage.getItem(`contadorClics`))||0;e++,localStorage.setItem(`contadorClics`,e),document.getElementById(`contador`).innerText=`Clics: ${e}`});

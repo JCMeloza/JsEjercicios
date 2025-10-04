@@ -1,0 +1,1 @@
+import"./style-C_zf2zca.js";var e=document.getElementById(`text`),t=document.getElementById(`wordCount`),n=document.getElementById(`charCount`);e.addEventListener(`input`,()=>{let r=e.value,i=r.replace(/\s/g,``).length,a=r.trim().split(/\s+/).filter(e=>e.length>0).length;n.textContent=i,t.textContent=a});

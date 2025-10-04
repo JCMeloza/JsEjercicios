@@ -1,0 +1,1 @@
+import"./style-C_zf2zca.js";document.getElementById(`cambiarColorBtn`).addEventListener(`click`,()=>{let e=`#`+Math.floor(Math.random()*16777215).toString(16);document.body.style.backgroundColor=e});

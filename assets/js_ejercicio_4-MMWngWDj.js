@@ -1,1 +1,0 @@
-import"./style-DQLMo0dU.js";searchInput.addEventListener(`input`,()=>{let e=document.getElementById(`searchInput`),t=document.getElementsByTagName(`li`),n=e.value.toLowerCase();Array.from(t).forEach(e=>{let t=e.textContent||e.innerText;e.classList.toggle(`hidden`,!t.toLowerCase().includes(n))})});
